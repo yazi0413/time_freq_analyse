@@ -8,7 +8,7 @@ cd(filepath)
 % s1 and s2 have same sampling rate
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% read the s1&s2 and plot
-[Stemp,fs]=audioread('Wav_VE362(ticking noise_low battery)_01.wav');
+[Stemp,fs]=audioread('Wav_VE362(ticking noise_low battery)_smartstart.wav');
     %%%%%%%%%%  resample  %%%%%%%%%
 if fs>12600;
     s1=zeros(floor(length(Stemp)/floor(fs/12600)),1);
